@@ -14,6 +14,13 @@
 		C5679C5E1489E69600C5CD29 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C5679C571489E69600C5CD29 /* NSString+SBJSON.m */; };
 		C5679C5F1489E69600C5CD29 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C5679C581489E69600C5CD29 /* SBJSON.m */; };
 		C5679C601489E69600C5CD29 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C5679C591489E69600C5CD29 /* NSObject+SBJSON.h */; };
+		C5679C731489EB5800C5CD29 /* IOSUtl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5679C711489EB5700C5CD29 /* IOSUtl.h */; };
+		C5679C7C1489EF9400C5CD29 /* DataMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = C5679C7A1489EF9400C5CD29 /* DataMgr.h */; };
+		C5679C7D1489EF9400C5CD29 /* DataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C5679C7B1489EF9400C5CD29 /* DataMgr.m */; };
+		C5679C811489F10600C5CD29 /* CryptUtl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5679C7F1489F10600C5CD29 /* CryptUtl.h */; };
+		C5679C821489F10600C5CD29 /* CryptUtl.m in Sources */ = {isa = PBXBuildFile; fileRef = C5679C801489F10600C5CD29 /* CryptUtl.m */; };
+		C5679C921489F38C00C5CD29 /* MetricsMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = C5679C901489F38C00C5CD29 /* MetricsMgr.h */; };
+		C5679C931489F38C00C5CD29 /* MetricsMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C5679C911489F38C00C5CD29 /* MetricsMgr.m */; };
 		C5E6CE631489D674004134C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E6CE621489D674004134C4 /* Foundation.framework */; };
 		C5E6CE691489D674004134C4 /* ios_utility_pack.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E6CE681489D674004134C4 /* ios_utility_pack.m */; };
 		C5E6CE711489D695004134C4 /* UIUtl.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E6CE6F1489D694004134C4 /* UIUtl.h */; };
@@ -31,6 +38,13 @@
 		C5679C571489E69600C5CD29 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
 		C5679C581489E69600C5CD29 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
 		C5679C591489E69600C5CD29 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C5679C711489EB5700C5CD29 /* IOSUtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSUtl.h; sourceTree = "<group>"; };
+		C5679C7A1489EF9400C5CD29 /* DataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMgr.h; sourceTree = "<group>"; };
+		C5679C7B1489EF9400C5CD29 /* DataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMgr.m; sourceTree = "<group>"; };
+		C5679C7F1489F10600C5CD29 /* CryptUtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptUtl.h; sourceTree = "<group>"; };
+		C5679C801489F10600C5CD29 /* CryptUtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptUtl.m; sourceTree = "<group>"; };
+		C5679C901489F38C00C5CD29 /* MetricsMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricsMgr.h; sourceTree = "<group>"; };
+		C5679C911489F38C00C5CD29 /* MetricsMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetricsMgr.m; sourceTree = "<group>"; };
 		C5E6CE5F1489D674004134C4 /* libios-utility-pack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-utility-pack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E6CE621489D674004134C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5E6CE661489D674004134C4 /* ios-utility-pack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-utility-pack-Prefix.pch"; sourceTree = "<group>"; };
@@ -108,10 +122,17 @@
 			isa = PBXGroup;
 			children = (
 				C5679C501489E63000C5CD29 /* Vendor */,
+				C5679C711489EB5700C5CD29 /* IOSUtl.h */,
 				C5E6CE6F1489D694004134C4 /* UIUtl.h */,
 				C5E6CE701489D695004134C4 /* UIUtl.m */,
 				C5E6CE731489D6AD004134C4 /* FSUtl.h */,
 				C5E6CE741489D6AD004134C4 /* FSUtl.m */,
+				C5679C7F1489F10600C5CD29 /* CryptUtl.h */,
+				C5679C801489F10600C5CD29 /* CryptUtl.m */,
+				C5679C7A1489EF9400C5CD29 /* DataMgr.h */,
+				C5679C7B1489EF9400C5CD29 /* DataMgr.m */,
+				C5679C901489F38C00C5CD29 /* MetricsMgr.h */,
+				C5679C911489F38C00C5CD29 /* MetricsMgr.m */,
 				C5E6CE671489D674004134C4 /* ios_utility_pack.h */,
 				C5E6CE681489D674004134C4 /* ios_utility_pack.m */,
 				C5E6CE651489D674004134C4 /* Supporting Files */,
@@ -140,6 +161,10 @@
 				C5679C5B1489E69600C5CD29 /* SBJSON.h in Headers */,
 				C5679C5C1489E69600C5CD29 /* NSString+SBJSON.h in Headers */,
 				C5679C601489E69600C5CD29 /* NSObject+SBJSON.h in Headers */,
+				C5679C731489EB5800C5CD29 /* IOSUtl.h in Headers */,
+				C5679C7C1489EF9400C5CD29 /* DataMgr.h in Headers */,
+				C5679C811489F10600C5CD29 /* CryptUtl.h in Headers */,
+				C5679C921489F38C00C5CD29 /* MetricsMgr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +224,9 @@
 				C5679C5D1489E69600C5CD29 /* NSObject+SBJSON.m in Sources */,
 				C5679C5E1489E69600C5CD29 /* NSString+SBJSON.m in Sources */,
 				C5679C5F1489E69600C5CD29 /* SBJSON.m in Sources */,
+				C5679C7D1489EF9400C5CD29 /* DataMgr.m in Sources */,
+				C5679C821489F10600C5CD29 /* CryptUtl.m in Sources */,
+				C5679C931489F38C00C5CD29 /* MetricsMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

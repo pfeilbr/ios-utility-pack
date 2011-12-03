@@ -14,7 +14,13 @@
 
 + (NSString*)test;
 
++ (NSString *)applicationDocumentsDirectory;
+
++ (BOOL)createDirectoryAtPath:(NSString*)path;
+
 + (BOOL)deleteFile:(NSString*)path;
 + (BOOL)deleteDirectory:(NSString*)path;
+
++ (id)propertyListFromFile:(NSString*)path;
 
 @end
